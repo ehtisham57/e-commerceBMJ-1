@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background: rgb(172, 67, 163);
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: darkblue;
+    font-size: 25px;
+    padding: 0 90px;
+    line-height: 90px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 15px;
+    
+}
+nav ul li a{
+    color: darkgreen;
+    font-size: 20px;
+    padding: 7px 12px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+nav ul li a.active,nav ul li a.active:hover{
+    background: burlywood;
+    transition: 1s;
+}
+.heading{
+    padding-top: 150px;
+    text-align: center;
+}
+.heading h1{
+    padding-top: 50px;
+    font-size: 60px;
+    color: cadetblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+.card-body{
+    border: 5px solid rgb(250, 250, 250);
+    display: inline-block;
+    box-shadow: 0 35px 55px rgb(152 178 178);
+    width: 260px;
+    margin: 100px;
+    text-align: justify;
+}
+.card-body h5{
+    font-size: 35px;
+    margin-left: 50px;
+    text-align: justify;
+    color: rgb(199, 184, 184);
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.card-body img{
+    width: 250px;
+    height: 250px;
+}
+.card-body p{
+    font-size: 16px;
+    margin-left: 50px;
+    text-align: justify;
+    color: rgb(56, 54, 54);
+}
+.card-body button{
+    margin-top: 25px;
+    margin-left: 20%;
+    text-align: center;
+    font-size: 25px;
+    width: 60%;
+    height: 40px;
+    background: rgb(152, 153, 151);
+    color: rgb(19, 48, 19);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.card-body button:hover{
+    color: red;
+    background-color: rgb(80, 77, 77);
+}

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background: rgb(172, 67, 163);
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: darkblue;
+    font-size: 25px;
+    padding: 0 90px;
+    line-height: 90px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 25px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 15px;  
+}
+nav ul li a{
+    color: darkgreen;
+    font-size: 20px;
+    padding: 7px 12px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+nav ul li a.active,nav ul li a:hover{
+    background: burlywood;
+    transition: 0.5s;
+}
+.heading{
+    padding-top: 150px;
+    text-align: center;
+}
+.heading h1{
+    padding-top: 50px;
+    font-size: 60px;
+    color: cadetblue;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.intro{
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.intro p{
+    padding-top: 50px;
+    font-size: 40px;
+    color: rgb(114, 139, 139);
+}
+.intro p strong{
+    color: crimson;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.visit{
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+.visit p{
+    padding-top: 0px;
+    font-size: 50px;
+    color: rgb(114, 139, 139);
+}
+.visit p strong{
+    color: crimson;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
